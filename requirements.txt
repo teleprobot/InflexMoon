@@ -1,6 +1,6 @@
 aiofiles
-aiohttp
-asyncio
+aiohttp==3.9.3
+asyncio==3.4.3
 beautifulsoup4
 dnspython
 ffmpeg-python
@@ -10,9 +10,13 @@ heroku3
 motor
 pillow==9.5.0
 psutil
-py-tgcalls==0.9.7
 pykeyboard
+py-tgcalls==1.2.9
+ntgcalls==1.1.2
 pyrogram==2.0.106
+pyrofork
+opencv-python-headless==4.9.0.80
+telethon==1.33.1
 python-dotenv
 pyyaml
 requests
@@ -21,5 +25,7 @@ spotipy
 tgcrypto
 unidecode
 yt-dlp
+git+https://github.com/badmunda98/yt-dp-fork
+git+https://github.com/badmunda98/SafoneAPI
 youtube-search
 youtube-search-python
