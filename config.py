@@ -26,7 +26,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 OWNER_ID = int(getenv("OWNER_ID", None))
 
 # Fill Queue Limit . Example - 15
-QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "10"))
+QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "15"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
